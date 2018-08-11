@@ -1,8 +1,7 @@
-# mailSender
-# AMIA Mail Sender App #
+# mailSender - AMIA Mail Sender App #
 
 ## Install python virtual environment
->virtualenv -p <path-to-python-bin folder> venv
+>virtualenv -p path-to-python-bin-folder venv
 
 ## To activate
 >source venv/bin/activate
@@ -13,3 +12,8 @@ install using pip install command
 
 ## To run the app activate the virtual environment and issue 
 > python init.py
+
+## To create binary file for windows or macos, issue the following commands
+>pip install pyinstaller
+
+>pyinstaller --onefile init.py
